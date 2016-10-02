@@ -1,0 +1,92 @@
+CodeBook 
+
+Dataset
+The dataset for this assignment is found here:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
+These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter 
+and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then 
+separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter 
+with a corner frequency of 0.3 Hz. 
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ).
+Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag,
+tBodyGyroMag, tBodyGyroJerkMag). 
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, 
+fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+List of variables:
+subject
+activity
+VAR1tBodyAcc-MEAN()-X
+VAR2tBodyAcc-MEAN()-Y
+VAR3tBodyAcc-MEAN()-Z
+VAR4tBodyAcc-STD()-X
+VAR5tBodyAcc-STD()-Y
+VAR6tBodyAcc-STD()-Z
+VAR41tGravityAcc-MEAN()-X
+VAR42tGravityAcc-MEAN()-Y
+VAR43tGravityAcc-MEAN()-Z
+VAR44tGravityAcc-STD()-X
+VAR45tGravityAcc-STD()-Y
+VAR46tGravityAcc-STD()-Z
+VAR81tBodyAccJerk-MEAN()-X
+VAR82tBodyAccJerk-MEAN()-Y
+VAR83tBodyAccJerk-MEAN()-Z
+VAR84tBodyAccJerk-STD()-X
+VAR85tBodyAccJerk-STD()-Y
+VAR86tBodyAccJerk-STD()-Z
+VAR121tBodyGyro-MEAN()-X
+VAR122tBodyGyro-MEAN()-Y
+VAR123tBodyGyro-MEAN()-Z
+VAR124tBodyGyro-STD()-X
+VAR125tBodyGyro-STD()-Y
+VAR126tBodyGyro-STD()-Z
+VAR161tBodyGyroJerk-MEAN()-X
+VAR162tBodyGyroJerk-MEAN()-Y
+VAR163tBodyGyroJerk-MEAN()-Z
+VAR164tBodyGyroJerk-STD()-X
+VAR165tBodyGyroJerk-STD()-Y
+VAR166tBodyGyroJerk-STD()-Z
+VAR201tBodyAccMag-MEAN()
+VAR202tBodyAccMag-STD()
+VAR214tGravityAccMag-MEAN()
+VAR215tGravityAccMag-STD()
+VAR227tBodyAccJerkMag-MEAN()
+VAR228tBodyAccJerkMag-STD()
+VAR240tBodyGyroMag-MEAN()
+VAR241tBodyGyroMag-STD()
+VAR253tBodyGyroJerkMag-MEAN()
+VAR254tBodyGyroJerkMag-STD()
+VAR266fBodyAcc-MEAN()-X
+VAR267fBodyAcc-MEAN()-Y
+VAR268fBodyAcc-MEAN()-Z
+VAR269fBodyAcc-STD()-X
+VAR270fBodyAcc-STD()-Y
+VAR271fBodyAcc-STD()-Z
+VAR345fBodyAccJerk-MEAN()-X
+VAR346fBodyAccJerk-MEAN()-Y
+VAR347fBodyAccJerk-MEAN()-Z
+VAR348fBodyAccJerk-STD()-X
+VAR349fBodyAccJerk-STD()-Y
+VAR350fBodyAccJerk-STD()-Z
+VAR424fBodyGyro-MEAN()-X
+VAR425fBodyGyro-MEAN()-Y
+VAR426fBodyGyro-MEAN()-Z
+VAR427fBodyGyro-STD()-X
+VAR428fBodyGyro-STD()-Y
+VAR429fBodyGyro-STD()-Z
+VAR503fBodyAccMag-MEAN()
+VAR504fBodyAccMag-STD()
+VAR516fBodyBodyAccJerkMag-MEAN()
+VAR517fBodyBodyAccJerkMag-STD()
+VAR529fBodyBodyGyroMag-MEAN()
+VAR530fBodyBodyGyroMag-STD()
+VAR542fBodyBodyGyroJerkMag-MEAN()
+VAR543fBodyBodyGyroJerkMag-STD()
+
+
+
